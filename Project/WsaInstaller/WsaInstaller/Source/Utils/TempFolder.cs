@@ -26,10 +26,7 @@ namespace WsaInstaller.Utils
             {
                 Directory.Delete(path, true);
             }
-            else
-            {
-                Console.WriteLine("Dizin bulunamadı.");
-            }
+            
         }
 
         static string GenerateUniqueFolderName(string path)
