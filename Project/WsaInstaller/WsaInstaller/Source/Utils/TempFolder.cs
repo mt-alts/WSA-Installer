@@ -14,7 +14,6 @@ namespace WsaInstaller.Utils
 
             while (Directory.Exists(path))
             {
-                Console.WriteLine("Mevcut bir dizin bulundu. Yeni bir rastgele isim oluşturulacak.");
                 path = GenerateUniqueFolderName(tempDir);
             }
 
